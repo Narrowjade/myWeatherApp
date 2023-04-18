@@ -105,3 +105,12 @@ body {
   margin-top: 10px;
   display: none;
 }
+
+@media only screen and (max-width: 425px) {
+  .search-box button {
+    visibility: hidden;
+  }
+  .search-box {
+    margin-left: 15px;
+  }
+}
